@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Info</title>
+</head>
+
+<body>
+
+    <h3>Inner Height = <span id="innerHeight"></span></h3>
+    <h3>Inner Width = <span id="innerWidth"></span></h3>
+    <h3>Screen Width = <span id="screenWidth"></span></h3>
+    <h3>Screen Height = <span id="screenHeight"></span></h3>
+    <h3>availWidth = <span id="availWidth"></span></h3>
+    <h3>availHeight = <span id="availHeight"></span></h3>
+    <h3>colorDepth = <span id="colorDepth"></span></h3>
+    <h3>pixelDepth = <span id="pixelDepth"></span></h3>
+
+
+
+
+
+    <script>
+        let innerHeight = window.innerHeight;
+        let innerWidth = window.innerWidth;
+        let screenWidth = screen.width;
+        let screenHeight = screen.height;
+        let availWidth = screen.availWidth;
+        let availHeight = screen.availHeight;
+        let colorDepth = screen.colorDepth;
+        let pixelDepth = screen.pixelDepth;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        document.querySelector('#innerHeight').innerHTML = innerHeight;
+        document.querySelector('#innerWidth').innerHTML = innerWidth; 
+        document.querySelector('#screenWidth').innerHTML = screenWidth;
+        document.querySelector('#screenHeight').innerHTML = screenHeight;
+        document.querySelector('#availWidth').innerHTML = availWidth;
+        document.querySelector('#availHeight').innerHTML = availHeight;
+        document.querySelector('#colorDepth').innerHTML = colorDepth;
+        document.querySelector('#pixelDepth').innerHTML = pixelDepth;
+    </script>
+
+</body>
+
+</html>
